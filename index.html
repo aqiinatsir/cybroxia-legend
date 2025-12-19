@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBROXIA LEGEND - Join Sekarang!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">⛏️ CYBROXIA LEGEND</div>
+            <ul class="nav-menu">
+                <li><a onclick="scrollToSection('hero')">Home</a></li>
+                <li><a onclick="scrollToSection('features')">Pelajari Lebih Lanjut</a></li>
+                <li><a onclick="scrollToSection('p2w')">P2W</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di CYBROXIA LEGEND</h1>
+            <p>Server Minecraft terlengkap dengan fitur premium, ekonomi stabil, dan komunitas solid. Ratusan ribu jam keseruan menanti Anda!</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="showIPModal()">Join Server</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('features')">Pelajari Lebih Lanjut</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS SECTION -->
+    <section class="stats">
+            <div class="stat-card">
+            <div class="stat-number">1.2K+</div>
+            <div class="stat-label">Total Member</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">99.8%</div>
+            <div class="stat-label">Server Uptime</div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features">
+        <h2 class="section-title">Tentang CYBROXIA LEGEND</h2>
+        <div class="about-section">
+            <h3>Selamat Datang di CYBROXIA LEGEND</h3>
+            <p>CYBROXIA LEGEND adalah server Minecraft terbaik dan paling menguntungkan yang dirancang khusus untuk memberikan pengalaman bermain yang luar biasa. Dengan teknologi terdepan dan sistem yang terus diperbarui, kami menawarkan petualangan tak terlupakan untuk semua level pemain.</p>
+            
+            <h3 style="margin-top: 30px;">Keunggulan Server Kami</h3>
+            <p>Server CYBROXIA LEGEND dilengkapi dengan fitur-fitur canggih yang tidak akan Anda temukan di server lain. Dari sistem ekonomi yang seimbang hingga event-event seru yang diadakan setiap minggu, kami berkomitmen untuk memberikan nilai terbaik kepada setiap pemain.</p>
+            
+            <h3 style="margin-top: 30px;">Komunitas yang Solid</h3>
+            <p>Bergabunglah dengan ribuan pemain aktif dari seluruh Indonesia yang sudah merasakan manfaat bermain di CYBROXIA LEGEND. Kami memiliki tim admin yang responsif dan support yang 24/7 siap membantu Anda kapan saja.</p>
+            
+            <h3 style="margin-top: 30px;">Fitur-Fitur Unggulan</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚔️</div>
+                    <h4>PvP Extreme Mode</h4>
+                    <p>Arena pertarungan dengan sistem skill dan upgrade gear yang kompleks untuk kompetisi seru</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h4>Leaderboard & Ranking</h4>
+                    <p>Sistem ranking komprehensif dengan reward bulanan untuk top players dengan hadiah besar</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h4>Ekonomi Dinamis</h4>
+                    <p>Sistem economy yang seimbang dengan NPC Trading, Auction House, dan player market</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎁</div>
+                    <h4>Daily & Weekly Quest</h4>
+                    <p>Ratusan quest dengan reward melimpah yang bisa dikerjakan setiap hari</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏰</div>
+                    <h4>Guild & Faction System</h4>
+                    <p>Bergabung dengan guild dan berpartisipasi dalam perang faction yang epik</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎪</div>
+                    <h4>Event Minigame Seru</h4>
+                    <p>Event rutin dengan hadiah menarik seperti Build Competition, Murder Mystery, dan lainnya</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 30px;">Mengapa Memilih CYBROXIA LEGEND?</h3>
+            <p style="margin-bottom: 10px;"><strong>✓ Server Stabil 99.8% Uptime</strong> - Infrastructure terbaik untuk pengalaman bermain yang smooth tanpa lag</p>
+            <p style="margin-bottom: 10px;"><strong>✓ Admin Team Profesional</strong> - Tim admin berpengalaman yang jaga keamanan dan keadilan server</p>
+            <p style="margin-bottom: 10px;"><strong>✓ Content Update Rutin</strong> - Setiap bulan ada konten dan fitur baru yang membuat permainan tetap fresh</p>
+            <p style="margin-bottom: 10px;"><strong>✓ Economy Balance Terjaga</strong> - Sistem yang dirancang agar tidak ada pay-to-win yang berlebihan</p>
+            <p><strong>✓ Community Events</strong> - Event komunitas yang seru dengan hadiah ratusan juta rupiah setiap bulannya</p>
+        </div>
+    </section>
+
+    <!-- P2W SECTION -->
+    <section id="p2w" class="p2w-section">
+        <h2>Paket Premium - Play to Win</h2>
+        <div class="packages">
+            <div class="package">
+                <div class="package-name">🥉 BRONZE</div>
+                <div class="package-price">Rp 49.000</div>
+                <ul class="package-features">
+                    <li>Starter Gear Kit</li>
+                    <li>Bonus Coins 10.000</li>
+                    <li>1 Rumah di Mall</li>
+                    <li>Tag [BRONZE]</li>
+                </ul>
+                <button class="btn-package" onclick="contactWhatsApp('Saya ingin membeli paket BRONZE')">Beli Sekarang</button>
+            </div>
+
+            <div class="package featured">
+                <div class="package-name">🥈 SILVER</div>
+                <div class="package-price">Rp 99.000</div>
+                <ul class="package-features">
+                    <li>Full Enchanted Gear</li>
+                    <li>Bonus Coins 30.000</li>
+                    <li>2 Rumah di Mall</li>
+                    <li>Tag [SILVER]</li>
+                    <li>Extra Fly Time</li>
+                    <li>Priority Support</li>
+                </ul>
+                <button class="btn-package" onclick="contactWhatsApp('Saya ingin membeli paket SILVER')">Beli Sekarang</button>
+            </div>
+
+            <div class="package">
+                <div class="package-name">🥇 GOLD</div>
+                <div class="package-price">Rp 199.000</div>
+                <ul class="package-features">
+                    <li>Legend Gear Set</li>
+                    <li>Bonus Coins 100.000</li>
+                    <li>5 Rumah di Mall</li>
+                    <li>Tag [GOLD] + Glow</li>
+                    <li>Unlimited Fly</li>
+                    <li>VIP Channel Discord</li>
+                    <li>Double EXP</li>
+                </ul>
+                <button class="btn-package" onclick="contactWhatsApp('Saya ingin membeli paket GOLD')">Beli Sekarang</button>
+            </div>
+
+            <div class="package">
+                <div class="package-name">💎 DIAMOND</div>
+                <div class="package-price">Rp 499.000</div>
+                <ul class="package-features">
+                    <li>Ultimate Gear Pack</li>
+                    <li>Bonus Coins 500.000</li>
+                    <li>Unlimited Rumah</li>
+                    <li>Tag [DIAMOND] + Rainbow</li>
+                    <li>Immortal Mode 1 Jam</li>
+                    <li>Lifetime VIP</li>
+                    <li>Custom Pet</li>
+                    <li>Priority Queue</li>
+                </ul>
+                <button class="btn-package" onclick="contactWhatsApp('Saya ingin membeli paket DIAMOND')">Beli Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 CYBROXIA LEGEND SERVER. Semua hak dilindungi. | IP Server: play.cybroxia.com | Discord: discord.gg/cybroxia</p>
+    </footer>
+
+    <!-- MODAL IP SERVER -->
+    <div id="ipModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeIPModal()">&times;</span>
+            <h2>Join CYBROXIA LEGEND</h2>
+            <p style="margin-bottom: 30px; color: #b0b0b0;">Pilih platform yang Anda gunakan:</p>
+            
+            <div class="ip-container">
+                <div class="ip-box">
+                    <h3>☕ JAVA EDITION</h3>
+                    <p class="ip-label">IP Address:</p>
+                    <div class="ip-display">
+                        <span id="javaIP">play.cybroxia.com</span>
+                        <button class="copy-btn" onclick="copyToClipboard('play.cybroxia.com', 'java')">📋 Copy</button>
+                    </div>
+                    <p class="ip-info">Gunakan IP ini di Minecraft Java Edition</p>
+                </div>
+
+                <div class="ip-box">
+                    <h3>📱 BEDROCK EDITION</h3>
+                    <p class="ip-label">IP Address:</p>
+                    <div class="ip-display">
+                        <span id="bedrockIP">bedrock.cybroxia.com</span>
+                        <button class="copy-btn" onclick="copyToClipboard('bedrock.cybroxia.com', 'bedrock')">📋 Copy</button>
+                    </div>
+                    <p class="ip-info">Gunakan IP ini di Minecraft Bedrock Edition (PE, Xbox, Windows 10)</p>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <p style="color: #999; font-size: 14px; margin-top: 20px;">Port: 25565 (Java) | Port: 19132 (Bedrock)</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
